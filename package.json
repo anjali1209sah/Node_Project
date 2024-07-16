@@ -1,0 +1,25 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc src/index.ts && nodemon src/index.js",
+    "dev":"npm run build && nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5"
+  }
+}
